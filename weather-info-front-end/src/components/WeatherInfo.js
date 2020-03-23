@@ -11,7 +11,8 @@ export class WeatherInfo extends Component {
         super(props);
 
         this.state= {
-            cities : ['New York', 'Chicago', 'Houston']
+            cities : ['New York', 'Chicago', 'Houston'],
+            activeCity : 'New York'
         };
         
         this.getWeatherInfo = this.getWeatherInfo.bind(this);
